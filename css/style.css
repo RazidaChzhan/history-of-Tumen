@@ -1,0 +1,224 @@
+body {
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Yeseva One', cursive;
+    color: #4E555E;
+}
+
+img {
+    max-width: 100%;
+    height: auto;    
+}
+
+a {
+    color: gray;
+}
+a:hover {
+    color: #CF6847;
+}
+
+/* header .navbar-light {
+    background: #E5E5E5;
+} */
+
+header .nav-link {
+    font-family: Roboto;
+}
+
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+header .nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #CF6847;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after {
+    transform: scale(1);
+}
+
+.background-header-img {
+    width: 1440px;
+    height: 990px;
+    background-image: url("/images/devBackGroud01.svg");
+    background-repeat: no-repeat;    
+}   
+
+.history {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #CF6847;
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 88px;
+    line-height: 100px;
+}
+
+h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.sumphotos {
+    width: 362px;
+    height: 190px;
+    margin-left:0px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    background-color: #F0F0ED;
+    color: #CF6847;
+}
+
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CF6847;
+}
+.background-img {
+    max-width: 100%;
+    width: 1440px;
+    height: 520px;
+    background-image: url("/images/backImg02.svg");
+    background-repeat: no-repeat;    
+}   
+.project {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CF6847;
+    margin-left: 668px;
+    margin-top: 130px;
+    text-transform: uppercase;
+}
+.large-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;    
+    color: #4E555E;
+}
+.container .large-text {
+    width: 753px;
+    height: 160px;
+    margin-left: 344px;
+    }
+
+.background-map {
+    max-width: 100%;
+    width: 1440px;
+    height: 1180px;
+    background-image: url("/images/map.svg");
+    background-repeat: no-repeat;    
+}  
+.map-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #4E555E;
+}
+.container .map-text {
+    width: 590px;
+    height: 80px;
+    margin-left: 147px;
+    margin-top: 130px;
+}
+.background-history {
+    max-width: 100%;
+    width: 1440px;
+    height: 1900px;
+    background-image: url("/images/background-history.svg");
+    background-repeat: no-repeat;
+}
+
+.history-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #4E555E;
+} 
+
+.container .history-text {
+    width: 590px;
+    height: 80px;
+    margin-left: 147px;
+    margin-top: 120px;
+}
+.background-history-01 {
+    max-width: 100%;
+    width: 1280px;
+    height: 280px;
+    background-image: url("/images/history-01.png");
+    background-repeat: no-repeat;
+}
+.background-history-02 {
+    max-width: 100%;
+    width: 1280px;
+    height: 280px;
+    background-image: url("/images/history-02.png");
+    background-repeat: no-repeat;    
+}
+.background-history-03 {
+    max-width: 100%;
+    width: 1280px;
+    height: 280px;
+    background-image: url("/images/history-03.png");
+    background-repeat: no-repeat;
+}
+.background-history-04 {
+    max-width: 100%;
+    width: 1280px;
+    height: 280px;
+    background-image: url("/images/history-04.png");
+    background-repeat: no-repeat; 
+}
+.background-history-05 {
+    max-width: 100%;
+    width: 1300px;
+    height: 280px;
+    background-image: url("/images/history-05.png");
+    background-repeat: no-repeat;  
+}
+.btn-primary {
+    background: #CF6847;
+    box-shadow: 5px 5px 14px #CFD1C8;
+    max-width: 100%;
+    width: 1146px;
+    height: 60px;
+    text-transform: uppercase;
+    margin-left: 60px;
+}

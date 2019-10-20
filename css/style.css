@@ -145,15 +145,30 @@ h2 {
     color: #4E555E;
 }
 
-.background-history {
+.background-history-1 {
     max-width: 100%;
     width: 1440px;
-    height: 2100px;
-    background-image: url("/images/histories.png");
-    background-repeat: no-repeat;
-    background-color: #E5E5E5;
+    height: 300px;
+    background-image: url("/images/history.svg");
+    background-repeat: no-repeat;    
 }
 
+.background-history-2 {
+    max-width: 100%;
+    width: 1440px;
+    height: 1900px;
+    background-color:#E9EAE5;
+}
+.background-history-text {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 310px;
+    line-height: 300px;
+    margin-left: 147px;
+    color: #FFFFFF;
+    opacity: 0.2;
+}
 .history-text {
     font-family: Roboto;
     font-style: normal;
@@ -161,14 +176,17 @@ h2 {
     font-size: 28px;
     line-height: 40px;
     color: #4E555E;
-} 
-
-.container .history-text {
+    margin-left: 135px;
+    margin-top: 0px;
     width: 640px;
     height: 80px;
-    margin-bottom: 100px;
-    margin-left: 147px;
-    padding-top: 150px;
+    padding-top: 170px;
+} 
+.container .history-text {
+    margin-top: 0px;
+    width: 640px;
+    height: 80px;
+    padding-top: 0px;
 }
 
 .btn-primary {
@@ -213,8 +231,9 @@ h3 {
 .description {
     width: 1146px;
     height: 320px;
-    background: #F0F0ED;
-    margin-top: 20px;
+    background:#F0F0ED;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
     margin-left: 147px;
 }
 .img-thumbnail {
@@ -226,7 +245,7 @@ h3 {
 
 .photos {
     width: 1440px;
-    height: 1433px;
+    height: 1300px;
     background-color:#DFE1D9;
 }
 

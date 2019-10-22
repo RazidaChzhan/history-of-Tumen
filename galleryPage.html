@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <title>Галерея</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+       <a href="mainPage.html"><img src="images/main-images/logo.svg" width="70" height="60" alt="image description" class="logo"></a> 
+                      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">ГАЛЕРЕЯ</a>
+            </li>
+          <ul class="navbar-nav mr-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">ПОДБОРКИ</a>
+            </li>
+          <ul class="navbar-nav mr-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">КАРТА</a>
+            </li>
+          <ul class="navbar-nav mr-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">ОТПРАВИТЬ ФОТО</a>
+            </li>              
+          </ul>            
+        </div>
+      </nav>
+      
+    </div>
+
+    <div class="container-fluid photos">
+      <h2 class="photos-text">Галерея</h2>
+      <div class="dropdown show">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" 
+          aria-haspopup="true" aria-expanded="false">Все города</a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Тюмень</a>
+            <a class="dropdown-item" href="#">Ханты-Мансийск</a>
+            <a class="dropdown-item" href="#">Белоярский</a>
+            <a class="dropdown-item" href="#">Губкинский</a>
+            <a class="dropdown-item" href="#">Заводоуковск</a>
+            <a class="dropdown-item" href="#">Ишим</a>
+          </div>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="btn btn-primary">Все темы</button>
+            <button type="button" class="btn btn-primary">Нефть</button>
+            <button type="button" class="btn btn-primary">Архитектура</button>
+            <button type="button" class="btn btn-primary">Больницы</button>
+            <button type="button" class="btn btn-primary">Фасад</button>
+            <button type="button" class="btn btn-primary">Город</button>            
+        </div>
+       
+        <div class="slidecontainer">
+            <input type="range" min="1944" max="2019" value="50" class="slider" id="myRange" >
+        </div>
+       
+        
+      <div class="container-fluid">
+          <div class="row justify-content-md-center">
+              <div class="col img-left">
+                  <img src="/images/main-images/photo-01.png" alt="photo-01">
+                  <img src="/images/main-images/photo-02.png" alt="photo-02">
+                  <img src="/images/main-images/photo-03.png" alt="photo-03">
+                  <img src="/images/main-images/photo-01.png" alt="photo-01">
+                  <img src="/images/main-images/photo-02.png" alt="photo-02">
+                  <img src="/images/main-images/photo-03.png" alt="photo-03">
+              </div>
+              <div class="col img-middle">
+                  <img src="/images/main-images/photo-04.png" alt="photo-04">
+                  <img src="/images/main-images/photo-05.png" alt="photo-05">
+                  <img src="/images/main-images/photo-06.png" alt="photo-06">
+                  <img src="/images/main-images/photo-04.png" alt="photo-04">
+                  <img src="/images/main-images/photo-05.png" alt="photo-05">
+                  <img src="/images/main-images/photo-06.png" alt="photo-06">
+              </div>
+              <div class="col img-right">
+                  <img src="/images/main-images/photo-07.png" alt="photo-07">
+                  <img src="/images/main-images/photo-08.png" alt="photo-08">
+                  <img src="/images/main-images/photo-09.png" alt="photo-09">
+                  <img src="/images/main-images/photo-07.png" alt="photo-07">
+                  <img src="/images/main-images/photo-08.png" alt="photo-08">
+                  <img src="/images/main-images/photo-09.png" alt="photo-09">
+              </div>
+            </div>
+      </div>
+        
+      
+   
+    <div>
+     <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&larr;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&rarr;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav> 
+    </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+  
+</html>

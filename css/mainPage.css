@@ -42,7 +42,7 @@ a:hover {
 .background-header-img {
     width: 1400px;
     height: 990px;
-    background-image: url("/images/main-images/devBackGroud01.svg");
+    background-image: url("../images/main-images/devBackGroud01.svg");
     background-repeat: no-repeat;    
 }   
 
@@ -100,7 +100,7 @@ h2 {
     max-width: 100%;
     width: 1440px;
     height: 520px;
-    background-image: url("/images/main-images/backImg02.svg");
+    background-image: url("../images/main-images/backImg02.svg");
     background-repeat: no-repeat;    
 }   
 .project {
@@ -130,7 +130,7 @@ h2 {
     max-width: 100%;
     width: 1440px;
     height: 1180px;
-    background-image: url("/images/main-images/map.svg");
+    background-image: url("../images/main-images/map.svg");
     background-repeat: no-repeat;    
 }  
 .map-text {
@@ -150,7 +150,7 @@ h2 {
     max-width: 100%;
     width: 1440px;
     height: 300px;
-    background-image: url("/images/main-images/history.svg");
+    background-image: url("../images/main-images/history.svg");
     background-repeat: no-repeat;    
 }
 
@@ -264,7 +264,7 @@ h3 {
 }
 
 .img-left {
-    margin-left: 180px;
+    margin-left: 147px;
     margin-right: 0px;    
 }
 

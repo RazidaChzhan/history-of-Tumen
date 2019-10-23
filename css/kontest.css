@@ -105,7 +105,7 @@ h2 {
 
 .form-photo-send {
     width: 852px;
-    height: 1400px;  
+    height: 1450px;  
     background-color: #F0F0ED;
     margin-top: 150px;
 }
@@ -138,8 +138,6 @@ h2 {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;    
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -179,14 +177,13 @@ h2 {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;    
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #E9EAE5;
     width: 362px;
     height: 60px;
+    margin-bottom: 30px;
     
 }
 
@@ -244,3 +241,4 @@ h2 {
   #checkboxes label:hover {
     background-color:#F0F0ED;
   }
+  

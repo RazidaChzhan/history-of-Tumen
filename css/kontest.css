@@ -1,0 +1,205 @@
+body {
+    min-width: 320px; 
+    max-width: 100%;
+    background-color: #E5E5E5;
+    margin: 0px;    
+}
+
+a {
+color: gray;
+}
+a:hover {
+color: #CF6847;
+}
+.nav-link {
+font-family: Roboto;
+}
+
+.nav-item {
+text-transform: uppercase;
+margin-left: 50px;
+}
+.nav-item a::after {
+content: '';
+display: block;
+width: 100%;
+background-color: #CF6847;
+height: 1px;
+transform: scale(0);
+transition: all .3s;
+}
+
+.nav-item a:hover::after {
+transform: scale(1);
+}
+.logo {
+    margin-left: 147px;
+}
+h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #4E555E;
+}
+
+.contest {
+    margin-left: 147px;
+    margin-top: 60px;
+    color: #4E555E;
+
+}
+
+.contest-text {
+    margin-left: 147px;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E555E;
+
+}
+.criterions {
+    width: 1400px;
+    height: 520px;
+    background-image: url("../images/contest/background.png");
+    background-repeat: no-repeat;    
+}
+.criterions-bold {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E555E;
+}
+.criterions-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E555E;
+
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E555E;
+
+}
+
+.form-background {
+    background-color: #E5E5E5;
+    width: 1400px;
+    height: 1500px;
+    background-image: url("../images/contest/form-background.svg");
+    }
+  
+
+.form-photo-send {
+    width: 852px;
+    height: 1300px;  
+    background-color: #F0F0ED;
+    margin-top: 150px;
+}
+.photo-send {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1B3047;
+    padding-top: 50px;
+    padding-left: 98px;
+}
+
+.forms-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E555E;
+    margin-left: 98px;
+}
+
+.btn-primary {
+    background-color: #CF6847;
+    box-shadow: 5px 5px 14px #CFD1C8;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #E9EAE5;
+    width: 362px;
+    height: 60px;
+    margin-left: 98px;
+}
+
+.btn-primary:hover {
+    background-color: #CF6847;
+    border: 0pt;
+}
+
+.form-group, .dropdown {
+    margin-left: 98px;   
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.form-group {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4E555E;
+}
+
+.dropdown, .dropdown-input {
+    width: 361px;
+    height: 50px;
+    background-color: #F0F0ED;
+    border: 1px solid #B4B4B4;
+    color: #4E555E;
+}
+.dropdown-item {
+    background-color: #F0F0ED;
+    border: 1px solid #B4B4B4;
+    color: #4E555E;
+}
+.more-photos {
+    background-color: #4E555E;
+    box-shadow: 5px 5px 14px #CFD1C8;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #E9EAE5;
+    width: 362px;
+    height: 60px;
+    margin-left: 98px;
+}
+

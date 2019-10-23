@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/kontest.css">
+    <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <title>Конкурс</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+       <a href="mainPage.html"><img src="images/main-images/logo.svg" width="70" height="60" alt="image description" class="logo"></a> 
+                      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">ГАЛЕРЕЯ</a>
+            </li>
+          <ul class="navbar-nav mr-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">ПОДБОРКИ</a>
+            </li>
+          <ul class="navbar-nav mr-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">КАРТА</a>
+            </li>
+          <ul class="navbar-nav mr-auto">              
+            <li class="nav-item">
+              <a class="nav-link" href="#">ОТПРАВИТЬ ФОТО</a>
+            </li>              
+          </ul>            
+        </div>
+      </nav>     
+    </div>
+
+    <div class="container-fluid">
+            <h2 class="contest">Конкурс</h2>  
+            <p class="contest-text">Информация о конкурсе
+            <br>
+            Пдф с положением конкурса
+            </p>  
+            <h2 class="contest">Номинации</h2>    
+            <p class="contest-text">Название номинации и краткое пояснение к ней</p>     
+            <h2 class="contest">Комиссия</h2>    
+            <p class="contest-text">Имя Фамилия, должность, фотография каждого члена комиссии</p>
+            <br>
+            <br>
+            <br>    
+             
+        </div>
+
+        <div class="container-fluid criterions">
+                <h2>Критерии фотографий</h2>    
+                <p class="text">Мы ищем фотографии которые отражают развитие Тюменской области. При
+                    <br>
+                модерации мы обращаем внимание на следующие вещи:</p>            
+        <div class="row">
+          <div class="col-6">
+                <p class="criterions-bold">
+                        Историческое или узнаваемое место
+                        </p>
+                        <p class="criterions-text">
+                        Это может быть улица, здание, достопримечательность,
+                        <br>
+                        памятник или даже пустырь, на месте которого теперь
+                        <br>
+                        вырос город.
+                        </p>
+                        
+                        <p class="criterions-bold">История фотографии </p>
+                        <p class="criterions-text">
+                        Содержательный рассказ об истории фотографии 
+                        <br>
+                        со знаковыми событиями.
+                        </p>
+          </div>
+          <div class="col-6">
+                <p class="criterions-bold">
+                    Значимое для области событие
+                    </p>
+                    <p class="criterions-text">
+                    Это могут быть, например, национальные правздники,
+                    <br>
+                    открытие какого-нибудь объекта, экспедиции
+                    </p>
+                    <br>
+                    <p class="criterions-bold">Снимки из семейных архивов</p>
+                    <p class="criterions-text">
+                    Парадные портреты и бытовые фото, очерки о буднях
+                    <br>
+                    предприятий и военная фотохроника.                        
+                    </p>
+          </div>   
+        </div>
+        </div>
+        
+        <div class="container-fluid form-background">
+            <div class="container form-photo-send">
+                <h2 class="photo-send">Отправить фото</h2>
+                <br>
+                <p class="forms-text">
+                    Поддержать наш проект вы можете онлайн, загрузив
+                    <br>
+                    фотографии на сайт или оффлайн, отсканировав их в
+                    <br>
+                    своем городе.
+                </p>
+                <p class="forms-text" style="font-weight: bold;">Контактная информация</p>
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Представтесь</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Фамилия Имя" 
+                        style="background-color: #F0F0ED;">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Ваш телефон</label>
+                        <input type="phone" class="form-control" id="formGroupExampleInput2" placeholder="+7(000)000-00-00" 
+                        style="background-color: #F0F0ED;">
+                    </div>
+                    <p class="forms-text" style="font-weight: bold;">Фотография</p>
+                    <button type="button" class="btn btn-primary">Выбрать фото</button>
+                    <div class="form-group">
+                            <label for="formGroupExampleInput">Автор фотографии</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Фамилия Имя" 
+                            style="background-color: #F0F0ED;">
+                    </div>
+                    
+                        <p class="forms-text">Тема фотографии</p>
+                        <div class="dropdown">
+                            <input class="dropdown-input" type="text" list="topics" placeholder="Выберите из списка"/>
+                                <datalist class="dropdown-menu" id="topics">
+                                    <option class="dropdown-item">Нефть</option>
+                                    <option class="dropdown-item">Архитектура</option>
+                                    <option class="dropdown-item">Больницы</option>
+                                    <option class="dropdown-item">Фасад</option>
+                                    <option class="dropdown-item">Город</option>                            
+                                </datalist>
+                        </div>   
+                        <br>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Год съёмки</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Например, 1944" 
+                            style="background-color: #F0F0ED;">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Город съёмки</label>
+                            <input type="phone" class="form-control" id="formGroupExampleInput2" placeholder="Например, Сургут" 
+                            style="background-color: #F0F0ED;">
+                        </div> 
+                        <button type="button" class="btn btn-primary more-photos">Загрузить ещё фото</button>
+                        <br>                
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Я ознакомлен(а) и согласен(а) с пользовательским соглашенем и разрешаю 
+                            <br>использование своей фотографии на этом ресурсе.</label>
+                        </div>
+                        <button type="button" class="btn btn-primary">Отправить</button>                               
+                                       
+                </form>                
+            </div>
+        </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+  
+</html>

@@ -105,7 +105,7 @@ h2 {
 
 .form-photo-send {
     width: 852px;
-    height: 1300px;  
+    height: 1400px;  
     background-color: #F0F0ED;
     margin-top: 150px;
 }
@@ -171,19 +171,6 @@ h2 {
     line-height: 30px;
     color: #4E555E;
 }
-
-.dropdown, .dropdown-input {
-    width: 361px;
-    height: 50px;
-    background-color: #F0F0ED;
-    border: 1px solid #B4B4B4;
-    color: #4E555E;
-}
-.dropdown-item {
-    background-color: #F0F0ED;
-    border: 1px solid #B4B4B4;
-    color: #4E555E;
-}
 .more-photos {
     background-color: #4E555E;
     box-shadow: 5px 5px 14px #CFD1C8;
@@ -200,6 +187,60 @@ h2 {
     color: #E9EAE5;
     width: 362px;
     height: 60px;
-    margin-left: 98px;
+    
 }
 
+.multiselect {
+    width: 200px;
+    background-color: #F0F0ED;
+    margin-left: 98px;
+  }
+  
+  .selectBox {
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 361px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #F0F0ED;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B4B4B4;
+
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+    background-color: #F0F0ED;
+    width: 381px;
+    height: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #4E555E;
+  }
+  
+  #checkboxes label {
+    display: block;
+    background-color: #F0F0ED;
+  }
+  
+  #checkboxes label:hover {
+    background-color:#F0F0ED;
+  }

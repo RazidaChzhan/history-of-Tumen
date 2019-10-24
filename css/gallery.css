@@ -125,8 +125,46 @@ a:hover {
     background-color: #CF6847;
     border: 0pt;
 }
+.slidecontainer{
+    margin-left: 149px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
-.slider {
+.btn-years-1944 {
+    margin-bottom: 10px;
+    background-color:#CF6847;
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width: 75px; 
+    height: 40px;
+    text-align: center;   
+    border: 0pt;  
+}
+.btn-years-2019 {
+    margin-bottom: 10px;
+    margin-left: 700px;
+    background-color:#CF6847;
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width: 75px; 
+    height: 40px;
+    text-align: center;   
+    border: 0pt;  
+}
+.irs-bar {
+    color: #CF6847;
+}
+/* 
+.filter-year {
     -webkit-appearance: none;
     width: 100%;
     height: 2px;
@@ -138,7 +176,7 @@ a:hover {
     transition: opacity .2s;
 }
 
-.slider::-webkit-slider-thumb {
+.filter-year::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 16px;
@@ -148,13 +186,13 @@ a:hover {
     cursor: pointer;
 }
 
-.slider::-moz-range-thumb {
+.filter-year::-moz-range-thumb {
     width: 16px;
     height: 16px;
     border-radius: 50%;
     background: #CF6847;
     cursor: pointer;
-}
+} */
 .img-left {
     margin-left: 147px;
     margin-right: 0px;    

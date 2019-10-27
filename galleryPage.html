@@ -14,49 +14,44 @@
 
     <title>Галерея</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" >
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg">
-       <a href="mainPage.html"><img src="images/main-images/logo.svg" width="70" height="60" alt="image description" class="logo"></a> 
-                      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">              
-            <li class="nav-item">
-              <a class="nav-link" href="#">ГАЛЕРЕЯ</a>
-            </li>
-          <ul class="navbar-nav mr-auto">              
-            <li class="nav-item">
-              <a class="nav-link" href="#">ПОДБОРКИ</a>
-            </li>
-          <ul class="navbar-nav mr-auto">              
-            <li class="nav-item">
-              <a class="nav-link" href="#">КАРТА</a>
-            </li>
-          <ul class="navbar-nav mr-auto">              
-            <li class="nav-item">
-              <a class="nav-link" href="#">ОТПРАВИТЬ ФОТО</a>
-            </li>              
-          </ul>            
-        </div>
-      </nav>
-      
+      <nav class="navbar navbar-expand-sm">
+        <a href="mainPage.html"><img src="images/main-images/logo.svg" width="70" height="60" alt="image description" class="logo"></a> 
+        
+        <ul class="navbar-nav ml-auto">              
+          <li class="nav-item">
+            <a class="nav-link" href="galleryPage.html">ГАЛЕРЕЯ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ПОДБОРКИ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">КАРТА</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontest.html">ОТПРАВИТЬ ФОТО</a>
+          </li>             
+        </ul>   
+      </nav>          
     </div>
+      
 
     <div class="container-fluid photos">
       <h2 class="photos-text">Галерея</h2>
       <div class="dropdown show">
-          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" 
-          aria-haspopup="true" aria-expanded="false">Все города</a>
-        
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#">Тюмень</a>
-            <a class="dropdown-item" href="#">Ханты-Мансийск</a>
-            <a class="dropdown-item" href="#">Белоярский</a>
-            <a class="dropdown-item" href="#">Губкинский</a>
-            <a class="dropdown-item" href="#">Заводоуковск</a>
-            <a class="dropdown-item" href="#">Ишим</a>
-          </div>
+        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" 
+        aria-haspopup="true" aria-expanded="false">Все города</a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">Тюмень</a>
+          <a class="dropdown-item" href="#">Ханты-Мансийск</a>
+          <a class="dropdown-item" href="#">Белоярский</a>
+          <a class="dropdown-item" href="#">Губкинский</a>
+          <a class="dropdown-item" href="#">Заводоуковск</a>
+          <a class="dropdown-item" href="#">Ишим</a>
         </div>
+      </div>
 
         <div class="buttons">
             <button type="button" class="btn btn-primary">Все темы</button>
@@ -73,35 +68,32 @@
         
         
       <div class="container-fluid">
-          <div class="row justify-content-md-center">
-              <div class="col img-left">
-                  <img src="/images/main-images/photo-01.png" alt="photo-01">
-                  <img src="/images/main-images/photo-02.png" alt="photo-02">
-                  <img src="/images/main-images/photo-03.png" alt="photo-03">
-                  <img src="/images/main-images/photo-01.png" alt="photo-01">
-                  <img src="/images/main-images/photo-02.png" alt="photo-02">
-                  <img src="/images/main-images/photo-03.png" alt="photo-03">
-              </div>
-              <div class="col img-middle">
-                  <img src="/images/main-images/photo-04.png" alt="photo-04">
-                  <img src="/images/main-images/photo-05.png" alt="photo-05">
-                  <img src="/images/main-images/photo-06.png" alt="photo-06">
-                  <img src="/images/main-images/photo-04.png" alt="photo-04">
-                  <img src="/images/main-images/photo-05.png" alt="photo-05">
-                  <img src="/images/main-images/photo-06.png" alt="photo-06">
-              </div>
-              <div class="col img-right">
-                  <img src="/images/main-images/photo-07.png" alt="photo-07">
-                  <img src="/images/main-images/photo-08.png" alt="photo-08">
-                  <img src="/images/main-images/photo-09.png" alt="photo-09">
-                  <img src="/images/main-images/photo-07.png" alt="photo-07">
-                  <img src="/images/main-images/photo-08.png" alt="photo-08">
-                  <img src="/images/main-images/photo-09.png" alt="photo-09">
-              </div>
-            </div>
-      </div>
-        
-      
+        <div class="row justify-content-md-center">
+          <div class="col-sm img-left">
+            <img src="/images/main-images/photo-01.png" alt="photo-01">
+            <img src="/images/main-images/photo-02.png" alt="photo-02">
+            <img src="/images/main-images/photo-03.png" alt="photo-03">
+            <img src="/images/main-images/photo-04.png" alt="photo-04">
+            <img src="/images/main-images/photo-05.png" alt="photo-05">
+
+          </div>
+          <div class="col-sm img-middle">
+            <img src="/images/main-images/photo-05.png" alt="photo-01">
+            <img src="/images/main-images/photo-04.png" alt="photo-02">
+            <img src="/images/main-images/photo-03.png" alt="photo-03">
+            <img src="/images/main-images/photo-02.png" alt="photo-04">
+            <img src="/images/main-images/photo-01.png" alt="photo-05">
+
+          </div>
+          <div class="col-sm img-right">           
+            <img src="/images/main-images/photo-02.png" alt="photo-01">
+            <img src="/images/main-images/photo-01.png" alt="photo-02">
+            <img src="/images/main-images/photo-03.png" alt="photo-03">
+            <img src="/images/main-images/photo-05.png" alt="photo-04">
+            <img src="/images/main-images/photo-04.png" alt="photo-05">            
+          </div>
+        </div>       
+      </div>     
    
     <div>
      <nav aria-label="Page navigation example">

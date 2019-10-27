@@ -2,7 +2,8 @@ body {
         min-width: 320px; 
         max-width: 100%;
         background-color: #E5E5E5;
-        margin: 0px;    
+        margin: 0px;   
+        position: relative; 
 }
 
 a {
@@ -160,41 +161,13 @@ a:hover {
     text-align: center;   
     border: 0pt;  
 }
-.irs-bar {
-    color: #CF6847;
-}
-/* 
-.filter-year {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 2px;
-    border-radius: 5px;  
-    background:#CF6847;
-    outline: none;
-    opacity: 1;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
 
-.filter-year::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%; 
-    background: #CF6847;
-    cursor: pointer;
-}
-
-.filter-year::-moz-range-thumb {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: #CF6847;
-    cursor: pointer;
-} */
-.img-left {
+.justify-content-md-center {
     margin-left: 147px;
+    }
+
+.img-left {
+    margin-left: 0px;
     margin-right: 0px;    
 }
 
@@ -204,6 +177,5 @@ a:hover {
 }
 
 .img-right {
-    margin-right: 147px;
     margin-left: 0px;
 }

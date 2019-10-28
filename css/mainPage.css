@@ -240,21 +240,19 @@ h3 {
 }
 .img-thumbnail {
     width: 460px;
-    height: 320px;
-    padding: 0px;
+    height: 310px;
+    padding-top: 5px;
     margin-left: 0px;
 }
 
 .photos {
-    width: 1440px;
-    height: 1300px;
+    max-width: 100%;
     background-color:#DFE1D9;
 }
 
 .photos-text {
     width: 642px;
     height: 60px;
-    margin-left: 147px;
     padding-top: 30px;
     padding-bottom: 90px;
     font-family: Yeseva One;
@@ -265,7 +263,7 @@ h3 {
 }
 
 .img-left {
-    margin-left: 147px;
+    margin-left: 0px;
     margin-right: 0px;    
 }
 
@@ -275,7 +273,7 @@ h3 {
 }
 
 .img-right {
-    margin-right: 180px;
+    margin-right: 0px;
     margin-left: 0px;
 }
 

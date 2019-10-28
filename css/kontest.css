@@ -64,10 +64,7 @@ h2 {
 
 }
 .criterions {
-    width: 1400px;
-    height: 520px;
-    background-image: url("../images/contest/background.png");
-    background-repeat: no-repeat;    
+    margin-left: 147px;    
 }
 .criterions-bold {
     font-family: Roboto;
